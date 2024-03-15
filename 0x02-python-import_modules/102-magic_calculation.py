@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-
-def magic_calculation(a, b):
-    """Match bytecode provided by Holberton School."""
+def magic_calculation(x, y):
     from magic_calculation_102 import add, sub
 
-    if a < b:
-        c = add(a, b)
+    if x < y:
+        a = add(x, y)
         for i in range(4, 6):
-            c = add(c, i)
-        return (c)
-
+            a = add(a, i)
+        return (a)
     else:
-        return(sub(a, b))
+        return (sub(x, y))
