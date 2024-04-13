@@ -4,4 +4,4 @@
 git add .
 #git commit -m "${msg}"
 git commit -m "add from HB"
-git push
+git push && clear
