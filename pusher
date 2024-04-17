@@ -1,6 +1,7 @@
 #!/bin/bash
-echo "Give me The Message Of Commit "
-read msg
+##echo "Give me The Message Of Commit "
+##read msg
 git add .
-git commit -m "${msg}"
-git push
+#git commit -m "${msg}"
+git commit -m "add from HB"
+git push && clear
